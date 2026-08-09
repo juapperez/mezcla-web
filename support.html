@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mezcla — Support / Soporte</title>
+<style>
+  :root { color-scheme: dark; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: #07070C;
+    color: #E8E8F0;
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    padding: 48px 24px 96px;
+  }
+  main { max-width: 680px; margin: 0 auto; }
+  h1 { font-size: 28px; font-weight: 800; letter-spacing: -0.5px; margin-bottom: 4px; }
+  h2 {
+    font-size: 13px; font-weight: 800; letter-spacing: 1.5px; text-transform: uppercase;
+    color: #8A8AA0; margin: 40px 0 12px;
+  }
+  h3 { font-size: 16px; font-weight: 700; margin: 22px 0 6px; color: #E8E8F0; }
+  .kicker { font-size: 12px; font-weight: 800; letter-spacing: 2px; color: #6C5CE7; text-transform: uppercase; }
+  p { margin-bottom: 14px; color: #C4C4D4; }
+  ul { margin: 0 0 14px 20px; color: #C4C4D4; }
+  li { margin-bottom: 8px; }
+  strong { color: #E8E8F0; }
+  a { color: #6C5CE7; }
+  .lead {
+    background: #101018; border: 1px solid #22222E; border-radius: 10px;
+    padding: 18px 20px; margin: 24px 0; color: #E8E8F0;
+  }
+  code {
+    background: #14141E; border: 1px solid #22222E; border-radius: 4px;
+    padding: 1px 6px; font-size: 13px; color: #E8E8F0;
+  }
+  hr { border: 0; border-top: 1px solid #22222E; margin: 64px 0 48px; }
+  footer { color: #6A6A80; font-size: 13px; margin-top: 48px; }
+</style>
+</head>
+<body>
+<main>
+
+  <p class="kicker">Mezcla</p>
+  <h1>Support</h1>
+
+  <p class="lead">Something not working, or a question about mixing? Write to <a href="mailto:pdevelop@pm.me">pdevelop@pm.me</a> and you will get a reply from a person.</p>
+
+  <h2>Common questions</h2>
+
+  <h3>There is no sound</h3>
+  <p>Check the silent switch on the side of your iPhone, and make sure the volume is up. The app synthesises its audio live, so if the device is muted you get complete silence rather than quiet sound. Also check that the channel fader and the crossfader are not all the way down.</p>
+
+  <h3>The app is sideways / I cannot rotate it</h3>
+  <p>Mezcla is landscape only, on purpose — a DJ board does not fit in a portrait phone. Turn your device sideways and make sure rotation lock is off in Control Centre.</p>
+
+  <h3>My imported track has the wrong tempo</h3>
+  <p>Tempo detection struggles with soft intros and irregular rhythms. Go to <strong>My samples</strong>, find the track, and correct it by hand: <code>−1</code> / <code>+1</code> nudge the BPM, <code>÷2</code> and <code>×2</code> fix the classic half-time and double-time mistakes. You can also move the start of the grid in quarter-beat steps until the first beat lands on the 1.</p>
+
+  <h3>What audio formats can I import?</h3>
+  <p>MP3, M4A, AAC, WAV and AIFF, up to 20 MB per file. On Android, OGG and FLAC also work.</p>
+
+  <h3>Why does the pitch change the key?</h3>
+  <p>Because there is no key lock. Changing the pitch changes the speed and the key together, exactly like a vinyl turntable. It is how beatmatching worked before it was automated, and it is what the app teaches.</p>
+
+  <h3>A saved mix will not play</h3>
+  <p>If the mix used one of your own samples and that sample has since been deleted, the mix cannot be reconstructed — a saved mix stores your movements, not the audio. The app will tell you which mixes are affected.</p>
+
+  <h3>Can I export a mix as an audio file?</h3>
+  <p>Not yet. A saved mix is a record of every control movement with its timestamp, which is what lets you replay it and hear where the transition failed. It is not an audio recording, so there is no file to upload. Sharing an individual <em>sample</em> does send the real audio file.</p>
+
+  <h3>Where is my data?</h3>
+  <p>On your device only. No accounts, no cloud, no analytics. See the <a href="./privacy.html">privacy policy</a>.</p>
+
+  <h2>Reporting a problem</h2>
+  <p>It helps enormously if you include your device model, your iOS version, and what you were doing right before it went wrong.</p>
+
+  <hr>
+
+  <p class="kicker">Mezcla</p>
+  <h1>Soporte</h1>
+
+  <p class="lead">¿Algo no funciona, o una duda sobre mezclar? Escribe a <a href="mailto:pdevelop@pm.me">pdevelop@pm.me</a> y te contesta una persona.</p>
+
+  <h2>Preguntas frecuentes</h2>
+
+  <h3>No se oye nada</h3>
+  <p>Mira el interruptor de silencio del lateral del iPhone y sube el volumen. La app sintetiza el audio en vivo, así que con el móvil en silencio hay silencio absoluto, no sonido bajito. Comprueba también que el fader del canal y el crossfader no estén abajo del todo.</p>
+
+  <h3>La app está de lado / no puedo girarla</h3>
+  <p>Mezcla va sólo en horizontal, a propósito: una cabina de DJ no cabe en un móvil vertical. Gira el dispositivo y asegúrate de que el bloqueo de rotación está desactivado en el Centro de Control.</p>
+
+  <h3>Un tema que he importado tiene el tempo mal</h3>
+  <p>La detección de tempo falla con intros suaves y ritmos irregulares. Ve a <strong>Mis samples</strong>, busca el tema y corrígelo a mano: <code>−1</code> / <code>+1</code> ajustan el BPM, y <code>÷2</code> y <code>×2</code> arreglan el error clásico de la mitad y el doble. También puedes mover el inicio de la rejilla en pasos de un cuarto de tiempo hasta que el primer golpe caiga en el 1.</p>
+
+  <h3>¿Qué formatos de audio puedo importar?</h3>
+  <p>MP3, M4A, AAC, WAV y AIFF, hasta 20 MB por fichero. En Android también valen OGG y FLAC.</p>
+
+  <h3>¿Por qué al cambiar el pitch cambia el tono?</h3>
+  <p>Porque no hay key lock. El pitch cambia la velocidad y el tono a la vez, igual que en un plato de vinilo. Es como se cuadraba antes de que se automatizara, y es lo que enseña la app.</p>
+
+  <h3>Una mezcla guardada no se reproduce</h3>
+  <p>Si la mezcla usaba un sample tuyo y ese sample ya no está, la mezcla no se puede reconstruir: lo que se guarda son tus movimientos, no el audio. La app te indica qué mezclas están afectadas.</p>
+
+  <h3>¿Puedo exportar una mezcla como fichero de audio?</h3>
+  <p>Todavía no. Una mezcla guardada es el registro de cada movimiento con su marca de tiempo, que es lo que permite reproducirla y oír dónde falló la transición. No es una grabación, así que no hay fichero que subir. Compartir un <em>sample</em> suelto sí manda el audio real.</p>
+
+  <h3>¿Dónde están mis datos?</h3>
+  <p>Sólo en tu dispositivo. Sin cuentas, sin nube y sin analítica. Mira la <a href="./privacy.html">política de privacidad</a>.</p>
+
+  <h2>Informar de un problema</h2>
+  <p>Ayuda mucho que incluyas el modelo de tu dispositivo, la versión de iOS y qué estabas haciendo justo antes de que fallara.</p>
+
+  <footer>Mezcla · Juan Pablo Perez Velez</footer>
+
+</main>
+</body>
+</html>
